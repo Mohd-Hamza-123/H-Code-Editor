@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #f9fafb;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:580px) {
+
+    body {
+        flex-direction: column !important;
+        height: auto !important;
+    }
+
+    #form {
+        width: 100% !important;
+        height: 100dvh !important;
+    }
+
+    #run-btn {
+        width: 30% !important;
+    }
+
+    #output-section {
+        height: 80dvh !important;
+        width: 100% !important;
+    }
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    padding: 5px;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+#run-btn {
+    padding: 4px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#run-btn:active {
+    background-color: yellow;
+    color: black;
+}
+
+div {
+    width: 100%;
+    height: 30%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-family: cursive;
+    color: #1f2937;
+
+}
+
+
+#html,
+#css,
+#javaScript {
+    height: 85%;
+    display: block;
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    color: #1f2937;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+
+#html {
+    padding: 10px;
+    font-size: 1rem;
+    /* height: 80%; */
+}
+
+
+#css {
+    padding: 0.625rem;
+    font-size: 0.875rem;
+    /* height: 80%; */
+}
+
+
+#javaScript {
+    padding: 0.5rem;
+    /* height: 90%; */
+    font-size: 0.75rem;
+}
+
+
+#veepn-breach-alert,
+#veepn-guard-alert {
+    display: none;
+}
+
+#output-section {
+    width: 60%;
+    padding: 7px;
+    height: 100%;
+}
+
+#output-section iframe {
+    width: 99%;
+    margin-top: 5px;
+    height: 95%;
+}

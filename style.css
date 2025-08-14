@@ -65,6 +65,7 @@ form {
     border-radius: 1rem;
     box-shadow: 0 8px 32px rgba(60, 60, 120, 0.12);
     border: 1px solid #e5e7eb;
+    overflow-y: scroll;
 }
 
 #run-btn {
@@ -117,7 +118,7 @@ label {
     color: #1f2937;
     font-family: 'Fira Mono', 'Consolas', monospace;
     font-size: 1rem;
-    resize: none;
+    resize: vertical;
     overflow-y: scroll;
     padding: 1rem;
     margin-bottom: 1rem;

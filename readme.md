@@ -6,7 +6,7 @@ H-Editor is a simple web-based code editor for writing and previewing HTML, CSS,
 
 ## Features
 
-- **Live Preview:** Write and execute HTML, CSS, and JavaScript instantly.
+- **Live Preview:** Write and execute HTML, CSS instantly.
 - **Responsive Design:** Adaptable layout for different screen sizes (mobile-friendly).
 - **Customizable Styling:** Users can input custom styles for their output.
 - **Interactive Output:** Supports JavaScript for dynamic behaviors in the output.
